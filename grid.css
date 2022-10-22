@@ -58,6 +58,25 @@
   grid-area: content;
 }
 
+.content > div > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.content > div > div > p {
+  margin-right: 1.5em;
+}
+
+@media (max-width: 1024px) {
+  .content > div > div {
+    display: block;
+  }
+
+  .content > div > div > p {
+    margin-right: 0px;
+  }
+}
+
 .ads {
   grid-area: ads;
 }
