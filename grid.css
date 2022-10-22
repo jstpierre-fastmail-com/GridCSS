@@ -4,8 +4,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1.5fr 6fr 1.5fr; /* sur 9, i.e. 3x3 */
-  grid-template-rows: 1fr 6fr 2fr; /* sur 9, i.e. 3x3 */
+  grid-template-columns: 1.75fr 6.5fr 1.75fr;
+  grid-template-rows: 1.25fr 6.5fr 2.25fr;
   grid-template-areas:
     "header header header"
     "articles content ads"
@@ -16,20 +16,20 @@ body {
 
 @media (max-width: 1024px) {
   .container {
-    grid-template-columns: 4.5fr 1.5fr; /* sur 6, i.e. 2x3 */
-    grid-template-rows: 1fr 3.5fr 5.5fr 2fr; /* sur 12, i.e. 4x3 */
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 1.25fr 2.5fr 4fr 2.25fr;
     grid-template-areas:
       "header header"
-      "ads articles"
-      "content articles"
+      "ads content"
+      "articles content"
       "footer footer";
   }
 }
 
 @media (max-width: 768px) {
   .container {
-    grid-template-columns: auto; /* sur 3, i.e. 1x3*/
-    grid-template-rows: 1fr 3.5fr 5.5fr 3fr 2fr; /* sur 15, i.e. 5x3 */
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 5.25fr 1fr 1.75fr;
     grid-template-areas:
       "header"
       "ads"
