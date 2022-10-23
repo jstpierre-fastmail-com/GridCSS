@@ -9,15 +9,15 @@
       "footer footer";
   }
 
+  .header > div {
+    display: block;
+  }
+
   .content > div {
     display: block;
   }
 
   .content > div > p {
     margin-right: 0px;
-  }
-
-  .header > div {
-    display: block;
   }
 }
