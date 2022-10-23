@@ -6,12 +6,12 @@
     "header header header"
     "articles content ads"
     "footer footer footer";
-  gap: 0.25rem;
+  gap: 0.25em;
   height: 100vh;
 }
 
 .item {
-  padding: 0.5rem;
+  padding: 0.5em;
   border: 1px solid black;
   background-color: cornflowerblue;
 }
@@ -41,6 +41,8 @@
 }
 
 .content > div > p {
+  text-align: justify;
+  width: fit-content;
   margin-right: 1.5em;
   margin-bottom: 1em;
 }

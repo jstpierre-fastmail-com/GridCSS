@@ -18,6 +18,8 @@
   }
 
   .content > div > p {
+    text-align: left;
+    width: auto;
     margin-right: 0px;
   }
 }
