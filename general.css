@@ -2,6 +2,10 @@
   box-sizing: content-box;
 } */
 
+body {
+  height: 100%;
+}
+
 body,
 h3,
 p,
@@ -18,8 +22,4 @@ li {
   font-size: small;
   margin-left: 1rem;
   margin-bottom: 0.25rem;
-}
-
-p {
-  margin-bottom: 0.75rem;
 }
